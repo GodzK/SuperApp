@@ -1,0 +1,58 @@
+.todo {
+    min-height: 800px;
+gap: 20px; 
+}
+
+.todo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(255, 205, 205);
+    border-radius: 10px; /* มุมมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+}
+
+.todo-list {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* ระยะห่างระหว่างรายการ */
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(150, 208, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item {
+    background-color: rgb(236, 215, 255);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.todo-item:hover {
+    transform: translateY(-3px); /* ยกขึ้นเล็กน้อยเมื่อ hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.relative {
+    display: flex;
+    gap: 10px;
+}
+
+
+.butt{
+    display: flex;
+    justify-self: end;
+    position: relative;
+}
+

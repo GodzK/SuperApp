@@ -1,0 +1,25 @@
+.landing{
+  display: grid;
+  grid-template-areas: 
+  "lan1 lan1 lan2 lan2";
+  justify-content: center;
+  align-items: center;  
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+}
+
+.land-l{
+  grid-area: lan1;
+  width: 600px;
+  word-break: break-all; 
+  
+}
+.land-r{
+  grid-area: lan2;
+}
+.land-r img{
+  width: 15vw;
+  height: 100%;
+  object-fit: cover;
+}
